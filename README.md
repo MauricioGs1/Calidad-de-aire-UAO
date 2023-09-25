@@ -1,1 +1,11 @@
 # Calidad-de-aire-UAO
+Cuál es su problemática
+Que se encuentra en su repositorio
+Cuantos datos tomó, de que son y cuantas características tienen
+Que encontró en los datos
+Cómo su descubrimiento podría dar valor a una empresa.
+La problemática a tratar es la contaminación del aire por material particulado en la Universidad Autónoma de Occidente.
+en el repositorio se encuentran notebook de limpieza y visualización de los datos, y la adecuación de csv en este caso un archivo en Excel a una base de datos por medio de Python en la cual se realizo el CRUD por medio de SQL
+las dimensiones del dataframe son (227360, 7) la cual nos da un total de 1591520 datos, las características son (temperatura, PM1, PM2.5, PM10, lugar, fecha)
+lo que se pudo evidenciar con los datos encontrados es que en la universidad Autónoma de Occidente la calidad del aire medida por material particulado se encuentra en buen estado según los parámetros de ICA dados por el ideam.gov, los cuales nos dice que para PM10 los valores son buenos en una escala de 0 - 54 y para PM2.5 0 - 12. moderada 55 -154 PM10, 13-37 PM2.5. Dañina para grupos sensibles 155 - 254 PM10 y 38 -55 PM2.5. Los parámetros del PM1 no se encuentran pero se puede suponer que los rangos son mucho mas bajos debido a que es la partícula mas peligrosa para el ser humano. los valores de PM10 en su mayoría están entre 0 -50, los de PM2.5 entre 0 - 40 y los de PM1 entre 0 - 40. se puede observar un aumento en el valor de los datos para los meses de agosto y septiembre con varios datos catalogados como peligrosos para grupos sensibles. por lo que se puede inferir que la calidad del aire ha mermado en los últimos meses del año 2023
+como es sabido la UAO es catalogada como una de las universidades mas sostenibles en Colombia y Latinoamérica, liderando el ranking GreenMetric en Colombia por lo que constantemente tiene que estar demostrando su sostenibilidad ambiental, por lo que tiene que cumplir con varios estándares medioambientales en los cuales se incluye una buena calidad del aire dentro de su campus. por lo que la UAO a empezado a recolectar datos de pero no se han generado análisis de estos. El análisis realizado aunque puede ser un punto de partida importante para la realización de análisis mas importantes con el apoyo necesario de expertos en el tema de la calidad de aire.
